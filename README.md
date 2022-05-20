@@ -32,11 +32,11 @@ An operating system is the software that brings together a computer’s hardware
 - du -s/home/edulaney/files/ 'The –s option provides the total file size of the specified directory'.
 
 ### Making Directories
-1 cd/ root Directories
-2 ls list all contents in root directory
-3 cd it means change derectory
-4 ~ till the
-5 cd .. is used for moving back
-6 mkdir for making folder
-7 touch for making file 
+- cd/ root Directories
+- ls list all contents in root directory
+- cd it means change derectory
+- ~ tilde
+- cd .. is used for moving back
+- mkdir for making folder
+- touch for making file 
 
