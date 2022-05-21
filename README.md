@@ -37,6 +37,6 @@ An operating system is the software that brings together a computer’s hardware
 - ls 'Lists all files and directories in the present working directory'.
 - ls -la 'Lists hidden files as well'.
 - cd Desktop 'enters into destop directory'.
-![alt text](https://www.google.com/url?sa=i&url=https%3A%2F%2Flinuxhandbook.com%2Flinux-directory-structure%2F&psig=AOvVaw05_oI65ofNmQdiYWGGC0lm&ust=1653208078232000&source=images&cd=vfe&ved=0CA0QjhxqFwoTCMCZkJaW8PcCFQAAAAAdAAAAABAD)
+![alt text](https://linuxhandbook.com/content/images/2020/06/linux-directory-structure.png)
 
 
