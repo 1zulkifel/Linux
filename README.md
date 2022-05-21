@@ -36,7 +36,24 @@ An operating system is the software that brings together a computer’s hardware
 - whoami 'tells current user'.
 - ls 'Lists all files and directories in the present working directory'.
 - ls -la 'Lists hidden files as well'.
-- cd Desktop 'enters into destop directory'.
+- cd Desktop 'enters into destop directory back and forth move'.
+#### Linux Operating System
 ![alt text](https://linuxhandbook.com/content/images/2020/06/linux-directory-structure.png)
+- echo 'used for print'.
+- echo "text" > "file name" file.txt
+- cat file.txt "now open the file".
+- chown -R zulkifel file.txt 'changes ownership of a file'.
+- cat file1.txt file2.txt > file3.txt "merg two files into new file".
+- mv file3.txt ../Downloads "movee file from one directory to other".
+- cat ../Download/file3.txt 'relative path'.
+- mv file2.txt file2-old.txt 'remove file with new'.
+- cp file1.txt file2-old.txt 'copy of file1 into file2'.
+- rm file1.txt 'remove file'.
+- ifconfig 'display all interfaces and ip'.
+- nano file2.txt 'you can edit using nano editor',
+- nano file2.txt
+- chmod +x file2.sh  then change extension to .sh for executeable file
+- ./file2.sh 'it will execute all commands'.
+-  
 
 
