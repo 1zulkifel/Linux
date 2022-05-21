@@ -32,11 +32,11 @@ An operating system is the software that brings together a computer’s hardware
 - du -s/home/edulaney/files/ 'The –s option provides the total file size of the specified directory'.
 
 ### Making Directories
-- cd/ root Directories
-- ls list all contents in root directory
-- cd it means change derectory
-- ~ tilde
-- cd .. is used for moving back
-- mkdir for making folder
-- touch for making file 
+- sudo su 'command for root user'.
+- whoami 'tells current user'.
+- ls 'Lists all files and directories in the present working directory'.
+- ls -la 'Lists hidden files as well'.
+- cd Desktop 'enters into destop directory'.
+![alt text](https://www.google.com/url?sa=i&url=https%3A%2F%2Flinuxhandbook.com%2Flinux-directory-structure%2F&psig=AOvVaw05_oI65ofNmQdiYWGGC0lm&ust=1653208078232000&source=images&cd=vfe&ved=0CA0QjhxqFwoTCMCZkJaW8PcCFQAAAAAdAAAAABAD)
+
 
