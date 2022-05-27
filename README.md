@@ -77,13 +77,13 @@ An operating system is the software that brings together a computer’s hardware
 * if [ "$NAME" == "zulkifel" ]
 * then 
 * echo " your name is zulkifel "
-- #fi
-- #if [ "$NAME" == "zulkifel" ]
-- #then
--   echo " your name is zulkifel"
-- #else
--   echo " your name is khan"
-- #fi
+* #fi
+* #if [ "$NAME" == "zulkifel" ]
+* #then
+*   echo " your name is zulkifel"
+* #else
+*   echo " your name is khan"
+* #fi
 
 
 - #if , elif and else
@@ -101,12 +101,12 @@ An operating system is the software that brings together a computer’s hardware
 
 # Conditional Statements 
 ########
-- # val1 -eq val2 Returns true if the values are equal
-- # val1 -ne val2 Returns true if the values are not equal
-- # val1 -gt val2 Returns true if val1 is greater than val2
-- # val1 -ge val2 Returns true if val1 is greater than or equal to val2
-- # val1 -lt val2 Returns true if val1 is less than val2
-- # val1 -le val2 Returns true if val1 is less than or equal to val2
+-val1 -eq val2 Returns true if the values are equal
+-val1 -ne val2 Returns true if the values are not equal
+-val1 -gt val2 Returns true if val1 is greater than val2
+-val1 -ge val2 Returns true if val1 is greater than or equal to val2
+-val1 -lt val2 Returns true if val1 is less than val2
+-val1 -le val2 Returns true if val1 is less than or equal to val2
  ########
 # Greater than
 - NUM1=2
@@ -122,9 +122,9 @@ An operating system is the software that brings together a computer’s hardware
 - #if [ "$NUM1" -eq "$NUM2 " ]
 - #then
 - #  echo " $NUM1 is equal than $NUM2"
-- #else
-- #  echo " $NUM1 soryy $Num2"
-- #fi
+-#else
+-#  echo " $NUM1 soryy $Num2"
+-#fi
 
 - #less than
 - #if [ "$NUM1" -lt "$NUM2 " ]
