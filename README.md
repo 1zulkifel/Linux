@@ -147,4 +147,93 @@ An operating system is the software that brings together a computer’s hardware
 -  #-x  True if the file is an executable
 ########
 
+- #FILE="test.txt"
+- #if [ -f "$FILE" ]
+- #then
+-   echo "$FILE is a file"
+-#else 
+-   echo "$FILE is Not a file"
+#fi
+
+## -e file   True if the file exists
+- #if [ -e "$FILE" ]
+- #then 
+-  echo "$FILE is exist"
+- #else
+-   echo "$FILE is not exist"
+#fi
+
+## writeable or not and for deleting file use rm file name
+- #if [ -w "$FILE" ]
+- #then 
+-   echo "$FILE is writeable"
+-else
+-  echo "$FILE is not not writeable"
+#fi
+
+- #is a driectory
+- #if [ -d "$FILE" ]
+- #then 
+-  echo "$FILE is exist"
+- #else
+-  echo "$FILE is not exist"
+- #fi
+###############
+
+## Case statements like switches
+- #read -p "what is your age ? Y/N " ANSWER
+- #case "$ANSWER" in
+-   [yY] | [yY][eE][sS])
+-    echo " you can continue :) "
+-    ;;
+-  [nN]|[oO])
+-    echo "sorry you can't continue"
+-    ;;
+- *)
+-  echo " please enter y/yes and n/no"
+-    ;;
+#esac
+
+- #for loop
+- #NAMES="zulkifel ahmad qasim ali wasim"
+- #for NAME in $NAMES
+-  do 
+-    echo " hello $NAME"
+-done
+
+## create mutiple files and for  loop to rename files  (touch 1.txt 2.txt 3.txt)
+- #mv is used for remnaming
+- #FILES=$(ls *.txt)
+- #NEW="new"
+- #for FILE in $FILES
+-  do 
+-    echo "Renaming $FILE to new-$FILE"
+-    mv $FILE $NEW-$FILE
+- #done 
+
+## while loop read a file line by line
+- #LINE=1
+- #while read -r CURRENT_LINE
+-  do
+-    echo "$LINE: $CURRENT_LINE"
+-    ((LINE++))
+- #done < "./new-1.txt"
+
+## function
+- #function sayhell0(){
+-    echo "hello dear"
+- }
+- sayhell0
+
+## file with perams
+- #function greet(){
+    echo "Hello $1 and i am $2"
+-}
+- greet "zulkifel" "27"
+
+## creat folder and write to file
+- mkdir hello
+- touch "hello/world.txt"
+- echo "Hello world" >> "hello/world.txt"
+- echo "hello world/world.txt"
 
