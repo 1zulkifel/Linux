@@ -90,12 +90,12 @@ An operating system is the software that brings together a computer’s hardware
 - #NAME="ali"
 - #if [ "$NAME" == "zulkifel" ]
 - #then
-- #  echo " your name is zulkifel"
+-    echo " your name is zulkifel"
 - #elif [ "$NAME" == "ahmad" ]
 - #then
-- #  echo " your name is ahmad"
-- #else
-- #  echo " your name is not ahmad and zulkifel"
+-    echo " your name is ahmad"
+-  else
+-   echo " your name is not ahmad and zulkifel"
 - #fi
 
 
@@ -113,38 +113,38 @@ An operating system is the software that brings together a computer’s hardware
 - NUM2=4
 - #if [ "$NUM1" -gt "$NUM2 " ]
 - #then
-- #  echo " $NUM1 is greater than $NUM2"
+-    echo " $NUM1 is greater than $NUM2"
 - #else
-- #  echo " $NUM1 is less than $Num2"
+-    echo " $NUM1 is less than $Num2"
 - #fi
 
 ## eq to
 - #if [ "$NUM1" -eq "$NUM2 " ]
 - #then
-- #  echo " $NUM1 is equal than $NUM2"
+-    echo " $NUM1 is equal than $NUM2"
 - #else
-- #  echo " $NUM1 soryy $Num2"
+-    echo " $NUM1 soryy $Num2"
 - #fi
 
 - #less than
 - #if [ "$NUM1" -lt "$NUM2 " ]
 - #then
-- #  echo " $NUM1 is less than $NUM2"
-- #else
-- #  echo " $NUM1 soryy $Num2"
+-    echo " $NUM1 is less than $NUM2"
+-  else
+-    echo " $NUM1 soryy $Num2"
 - #fi
 
 # File Conditions
 ########
--  # -d file   True if the file is a directory
--  # -e file   True if the file exists (note that this is not particularly portable, thus -f is generally used)
--  # -f file   True if the provided string is a file
--  # -g file   True if the group id is set on a file
--  # -r file   True if the file is readable
--  # -s file   True if the file has a non-zero size
--  # -u    True if the user id is set on a file
--  # -w    True if the file is writable
--  # -x    True if the file is an executable
+-  #-d file True if the file is a directory
+-  #-e file True if the file exists (note that this is not particularly portable, thus -f is generally used)
+-  #-f file True if the provided string is a file
+-  #-g file True if the group id is set on a file
+-  #-r file True if the file is readable
+-  #-s file True if the file has a non-zero size
+-  #-u True if the user id is set on a file
+-  #-w True if the file is writable
+-  #-x  True if the file is an executable
 ########
 
 
