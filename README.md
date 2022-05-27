@@ -73,16 +73,16 @@ An operating system is the software that brings together a computer’s hardware
 
 
 # conditional statements
-- #NAME="khan"
-- #if [ "$NAME" == "zulkifel" ]
-- #then 
-- #echo " your name is zulkifel "
+* NAME="khan"
+* if [ "$NAME" == "zulkifel" ]
+* then 
+* echo " your name is zulkifel "
 - #fi
 - #if [ "$NAME" == "zulkifel" ]
 - #then
-- #  echo " your name is zulkifel"
+-   echo " your name is zulkifel"
 - #else
-- #  echo " your name is khan"
+-   echo " your name is khan"
 - #fi
 
 
